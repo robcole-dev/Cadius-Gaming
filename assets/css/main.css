@@ -1,0 +1,34 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Uchen&display=swap');
+
+/*Main Style*/
+* {
+    margin:0;
+    padding:0;
+    border: none;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+}
+
+/*Navigation*/
+#button {
+    font-size: 110%;
+}
+
+.button {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 30px;
+    position: relative;
+    background: transparent;
+    color: white;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 100%;
+    justify-items: center;
+}
