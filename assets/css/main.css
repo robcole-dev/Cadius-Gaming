@@ -8,40 +8,45 @@
     border: none;
     background-color: black;
 }
-
-div > img {
-    position: absolute;
+/*Index*/
+.bg-img{
+    background: url('../img/cadius_banner_test.jpg') no-repeat center ;
 }
-
-/*Navigation*/
-#button {
-    font-size: 110%;
-}
-
-.button {
-    font-family: 'Coda Caption', sans-serif;
-    font-size: 30px;
-    position: relative;
-    background: transparent;
-    color: white;
-}
-
 #grid {
-    height: 100%;
-    width: 100%;
-    background: url('../img/cadius_banner_1800.jpg') no-repeat center ;
-}
-
-ul {
-    background: transparent;
     display: grid;
-    grid-template-rows:    repeat(4, 200px);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-row-start: 2;
-    grid-column-start: 1;
     justify-items: center;
 }
-li {
-    background: transparent;
-    color: transparent;
+
+#grid > li {
+    text-decoration: none;
+}
+
+.logo {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: transparent;
+    justify-items: start;
+}
+
+.svr-details, .about-us, .contact-us {
+    grid-row-start: 4;
+    background-color: transparent;
+    color: white;
+    font-size: 150%;
+    align-items: center;
+}
+
+.svr-details {
+    justify-items: start;
+}
+
+.about-us {
+    justify-items: center;
+}
+
+.contact-us {
+    justify-items: end;
 }
