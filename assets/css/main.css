@@ -9,7 +9,7 @@
     background-color: black;
 }
 
-.logo {
+div > img {
     position: absolute;
 }
 
@@ -26,9 +26,22 @@
     color: white;
 }
 
+#grid {
+    height: 100%;
+    width: 100%;
+    background: url('../img/cadius_banner_1800.jpg') no-repeat center ;
+}
+
 ul {
+    background: transparent;
     display: grid;
-    grid-template-columns: 33% 33% 34%;
-    grid-template-rows: 100%;
+    grid-template-rows:    repeat(4, 200px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-start: 2;
+    grid-column-start: 1;
     justify-items: center;
+}
+li {
+    background: transparent;
+    color: transparent;
 }
