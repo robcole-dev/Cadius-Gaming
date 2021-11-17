@@ -1,5 +1,5 @@
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Road+Rage&display=swap');
 
 /*Main Style*/
 * {
@@ -7,6 +7,10 @@
     padding:0;
     border: none;
     background-color: black;
+}
+
+body {
+    font-family: Kanit, sans-serif;
 }
 /*Index*/
 .bg-img{
@@ -35,7 +39,7 @@
     grid-row-start: 4;
     background-color: transparent;
     color: white;
-    font-size: 150%;
+    font-size: 110%;
     align-items: center;
 }
 
