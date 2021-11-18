@@ -1,0 +1,24 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Road+Rage&display=swap');
+
+/*Main Style*/
+* {
+    margin-top: 0px;
+    padding:0;
+    border: none;
+    background-color: black;
+}
+
+body {
+    font-family: Kanit, sans-serif;
+}
+
+/*Banner and Navigation bars*/
+
+#top-banner {
+    background: url('../img/cadius_banner_main.jpg') no-repeat center;
+}
+
+.banner {
+    
+}
