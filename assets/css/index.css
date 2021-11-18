@@ -11,10 +11,13 @@
 body {
     font-family: Kanit, sans-serif;
 }
-/*Index*/
+
+/*background image*/
 .bg-img{
     background: url('../img/cadius_banner_test.jpg') no-repeat center ;
 }
+
+/*Grid configuration*/
 #grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -23,10 +26,7 @@ body {
     justify-items: center;
 }
 
-#grid > li {
-    text-decoration: none;
-}
-
+/*Logo*/
 .logo {
     grid-column-start: 2;
     grid-row-start: 2;
@@ -34,6 +34,7 @@ body {
     justify-items: start;
 }
 
+/*Navigation position*/
 .svr-details, .about-us, .contact-us {
     grid-row-start: 4;
     background-color: transparent;
@@ -42,6 +43,7 @@ body {
     align-items: center;
 }
 
+/*Button description*/
 .svr-details p {
     width: 400px;
     text-align: center;
@@ -63,6 +65,7 @@ body {
     background-color: transparent;
 }
 
+/*Button standards*/
 .svr-details a {
     font-family: 'Road Rage', sans-serif;
     font-size: 35px;
@@ -93,6 +96,7 @@ body {
     text-decoration: none;
 }
 
+/*Hover over for buttons*/
 .svr-details a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
