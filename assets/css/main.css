@@ -3,7 +3,7 @@
 
 /*Main Style*/
 * {
-    margin-top: 0px;
+    margin: 0px;
     padding:0;
     border: none;
     background-color: black;
@@ -17,4 +17,82 @@ body {
 
 #top-banner {
     background: url('../img/cadius_banner_main.jpg') no-repeat center;
+}
+
+.logo {
+    background-color: transparent;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#nav-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px;
+    background-color: transparent;
+
+}
+
+.home {
+    grid-column-start: 1;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-left: 24%;
+    text-decoration: none;
+}
+
+.info {
+    grid-column-start: 2;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-left: 24%;
+    text-decoration: none;
+}
+
+.about {
+    grid-column-start: 3;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-left: 24%;
+    text-decoration: none;
+
+}
+
+.contact {
+    grid-column-start: 4;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-left: 24%;
+    text-decoration: none;
+}
+
+.active {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+}
+
+.home:hover {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+}
+
+.info:hover {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+}
+
+.about:hover {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+}
+
+.contact:hover {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
 }
