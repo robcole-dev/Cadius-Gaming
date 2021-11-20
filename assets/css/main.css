@@ -32,43 +32,16 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 100px;
     background-color: transparent;
-
+    border-bottom: 1px solid white;
+    justify-items: center;
+    align-items: center;
 }
 
-.home {
+.nav {
     grid-column-start: 1;
     font-family: 'Road Rage', sans-serif;
     font-size: 55px;
     color: white;
-    margin-left: 24%;
-    text-decoration: none;
-}
-
-.info {
-    grid-column-start: 2;
-    font-family: 'Road Rage', sans-serif;
-    font-size: 55px;
-    color: white;
-    margin-left: 24%;
-    text-decoration: none;
-}
-
-.about {
-    grid-column-start: 3;
-    font-family: 'Road Rage', sans-serif;
-    font-size: 55px;
-    color: white;
-    margin-left: 24%;
-    text-decoration: none;
-
-}
-
-.contact {
-    grid-column-start: 4;
-    font-family: 'Road Rage', sans-serif;
-    font-size: 55px;
-    color: white;
-    margin-left: 24%;
     text-decoration: none;
 }
 
@@ -77,22 +50,29 @@ body {
     border-bottom: 2px solid #00c0ff;
 }
 
-.home:hover {
+.nav:hover {
     color: #00c0ff;
     border-bottom: 2px solid #00c0ff;
 }
 
-.info:hover {
-    color: #00c0ff;
-    border-bottom: 2px solid #00c0ff;
+#sub-menu {
+    display: grid;
+    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    grid-template-rows: 70px;
+    background-color: transparent;
+    justify-items: center;
+    align-items: center;
 }
 
-.about:hover {
-    color: #00c0ff;
-    border-bottom: 2px solid #00c0ff;
+.sub-menu {
+    grid-column-start: 2;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
 }
 
-.contact:hover {
+.sub-menu:hover {
     color: #00c0ff;
     border-bottom: 2px solid #00c0ff;
 }
