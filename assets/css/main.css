@@ -67,6 +67,8 @@ hr {
     border-bottom: 2px solid #00c0ff;
 }
 
+/*Sub Navigation*/
+
 #sub-menu {
     display: grid;
     grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
@@ -89,12 +91,16 @@ hr {
     border-bottom: 2px solid #00c0ff;
 }
 
+/*Section Titles*/
+
 .title {
     color: white;
     font-size: 50px;
     font-family: 'Road Rage',sans-serif;
     padding-left: 7%;
 }
+
+/*Intro*/
 
 #intro {
     color: white;
@@ -112,6 +118,8 @@ hr {
     font-size: 20px;
     text-align: center;
 }
+
+/*Game Info*/
 
 .game-grid {
     display: grid;
@@ -175,6 +183,8 @@ hr {
     justify-self: left;
     padding-left: 10%;
 }
+
+/*Server Detail*/
 
 .server-grid {
     display: grid;
@@ -244,6 +254,8 @@ hr {
     justify-self: center;
     align-self: center;
 }
+
+/*Footer*/
 
 .footer-grid {
     display: grid;
