@@ -21,6 +21,10 @@ hr {
     padding-bottom: 5px;
 }
 
+.game-line-break {
+    border-top: 1px solid #00c0ff;
+}
+
 /*Banner and Navigation bars*/
 
 #top-banner {
