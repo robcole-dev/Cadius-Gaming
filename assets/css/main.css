@@ -175,3 +175,119 @@ hr {
     justify-self: left;
     padding-left: 10%;
 }
+
+.server-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 300px;
+    background-color: transparent;
+}
+
+.server-title {
+    text-decoration: underline white;
+    font-size: 20px;
+}
+
+.server-left {
+    grid-column-start: 1;
+    justify-self: right;
+    align-self: center;
+    color: white;
+}
+
+.server-containter {
+    grid-column-start: 2;
+    justify-self: center;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.server-center-spaceeng {
+    background: url(../img/SpaceLogo.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.server-center-minecraft {
+    background: url(../img/Minecraft-block.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.server-right {
+    grid-column-start: 3;
+    justify-self: left;
+    align-self: center;
+    color: white;
+}
+
+.server-right li {
+    text-indent: 15px;
+    list-style-type: none;
+}
+
+.server-center-discord {
+    background: url(../img/discord-logo.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 30px;
+    background-color: transparent;
+}
+
+.facebook {
+    grid-column-start: 4;
+    justify-self: right;
+    align-self: center;
+}
+
+.facebook i {
+    color: #00c0ff;
+}
+
+.twitter {
+    grid-column-start: 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.twitter i {
+    color: #00c0ff;
+}
+
+.youtube {
+    grid-column-start: 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.youtube i {
+    color: #00c0ff;
+}
+
+.instagram {
+    grid-column-start: 4;
+    justify-self: left;
+    align-self: center;
+}
+
+.instagram i {
+    color: #00c0ff;
+}
