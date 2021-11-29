@@ -22,3 +22,55 @@
     margin: auto;
 
 }
+
+/*main body*/
+
+.title {
+    color: white;
+    font-family: 'Road Rage', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.text {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    padding-left: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+/*Staff section*/
+
+.staff-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.staff-left {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    justify-self: start;
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 20%;
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.staff-img-right {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    justify-self: right;
+    padding-right: 20%;
+}
