@@ -1,0 +1,53 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Road+Rage&display=swap');
+
+.title {
+    color: white;
+    font-family: 'Road Rage',sans-serif;
+    font-size: 70PX;
+}
+
+fieldset {
+    border: 2px solid #00c0ff;
+    width: 70%;
+}
+
+legend {
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 20px 0 5px 15px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.form-label {
+    color: white;
+    font-size: 30PX;
+    padding-left: 10px;
+}
+
+.form-input {
+    background-color: #06242e;
+}
+
+#reasons {
+    background-color: #06242e;
+}
+
+input[type="text"],
+input[type="email"],
+option,
+select {
+    font-size: 20px;
+    padding-left: 10px;
+    height: 28px;
+    color: white;
+}
