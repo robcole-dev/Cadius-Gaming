@@ -175,3 +175,54 @@
 .server-link:hover {
     color: #00c0ff;
 }
+
+@media screen and (max-width:993px) {
+    .game-grid img {
+        width: 400px;
+        height: auto;
+    }
+
+    .game-desc-left, .game-desc-right {
+        font-size: 15px;
+    }
+
+    .game-left, .game-right {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:601px) {
+    .title {
+        padding-left: 25%;
+    }
+
+    .game-grid {
+        grid-template-columns: 100%;
+    }
+
+    .game-left, .game-right {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .game-img-left, .game-img-right {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        justify-self: center;
+        align-self: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .game-desc-left, .game-desc-right {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        text-align: center;
+        justify-self: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

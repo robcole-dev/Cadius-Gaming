@@ -181,7 +181,7 @@ body {
     }
 
     .contact-us {
-        align-self: right;
+        align-self: flex-end;
         justify-self: right;
         grid-row-start: 4;
         grid-column-start: 3;
