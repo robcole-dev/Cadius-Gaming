@@ -115,3 +115,115 @@ body {
     color: #00c0ff;
     border-color: #00c0ff;
 }
+
+@media screen and (max-width:1201px) {
+    .logo {
+        margin-top: 15px;
+        width: 590px;
+        height: auto;
+        grid-row-start: 1;
+    }
+
+    .bg-img {
+        background: none;
+    }
+
+    body {
+        background: url('../img/cadius_banner_993.jpg') no-repeat center center;
+        position: absolute;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+    }
+
+    .svr-details {
+        align-self: center;
+        justify-self: left;
+        grid-row-start: 3;
+    }
+
+    .about-us {
+        align-self: center;
+        justify-self: center;
+        grid-row-start: 3;
+    }
+
+    .contact-us {
+        align-self: center;
+        justify-self: right;
+        grid-row-start: 3;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .bg-img {
+        background: none;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 330px 330px 330px;
+    }
+
+    .svr-details {
+        align-self: center;
+        justify-self: left;
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+
+    .about-us {
+        align-self: center;
+        justify-self: center;
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .contact-us {
+        align-self: right;
+        justify-self: right;
+        grid-row-start: 4;
+        grid-column-start: 3;
+    }
+    
+}
+
+@media screen and (max-width:601px) {
+    body {
+        background: none;
+    }
+
+    .bg-img {
+        background: url('../img/cadius_banner_main.jpg') no-repeat;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+    }
+
+    .svr-details {
+        align-self: center;
+        justify-self: center;
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+
+    .about-us {
+        align-self: center;
+        justify-self: center;
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .contact-us {
+        align-self: center;
+        justify-self: center;
+        grid-row-start: 4;
+        grid-column-start: 2;
+    }
+}
+
+
+
