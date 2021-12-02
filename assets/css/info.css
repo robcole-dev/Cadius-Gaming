@@ -167,3 +167,11 @@
     justify-self: center;
     align-self: center;
 }
+
+.server-link {
+    color: white;
+}
+
+.server-link:hover {
+    color: #00c0ff;
+}
