@@ -40,7 +40,7 @@ body {
     grid-row-start: 4;
     background-color: transparent;
     color: white;
-    font-size: 110%;
+    font-size: 1.5vw;
     align-items: center;
 }
 
@@ -104,16 +104,19 @@ body {
 .svr-details a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
+    transition: all 0.2s ease-in-out;
 }
 
 .about-us a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
+    transition: all 0.2s ease-in-out;
 }
 
 .contact-us a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
+    transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width:1201px) {
@@ -130,12 +133,11 @@ body {
 
     body {
         background: url('../img/cadius_banner_993.jpg') no-repeat center center;
-        position: absolute;
     }
 
     #grid {
         display: grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 33% 33% 33%;
     }
 
     .svr-details {
