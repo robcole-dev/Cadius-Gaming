@@ -9,6 +9,10 @@
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Kanit, sans-serif;
 }
@@ -26,7 +30,6 @@ hr {
 }
 
 #myBtn {
-    display: none;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -34,7 +37,7 @@ hr {
     border: none;
     outline: none;
     background-color: #00c0ff;
-    color: white;
+    color: black;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;

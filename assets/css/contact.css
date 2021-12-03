@@ -7,6 +7,11 @@
     font-size: 70PX;
 }
 
+.thank-you {
+    color: white;
+    font-size: 20px;
+}
+
 fieldset {
     border: 2px solid #00c0ff;
     width: 70%;
