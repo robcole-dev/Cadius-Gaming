@@ -60,6 +60,7 @@ body {
 /*Button description*/
 .svr-details-p, .about-us-p, .contact-us-p {
     margin-top: 15px;
+    width: 80%;
     text-align: center;
     background-color: transparent;
     justify-self: center;
@@ -71,7 +72,7 @@ body {
     font-family: 'Road Rage', sans-serif;
     font-size: 3vw;
     color: white;
-    padding: 5px;
+    padding: 0 5px 0 5px;
     border: 3px solid white;
     text-decoration: none;
     align-self: start;
@@ -98,6 +99,10 @@ body {
 }
 
 @media screen and (max-width:1201px) {
+    #grid {
+        grid-template-rows: 200px 200px 150px 200px;
+    }
+
     .logo {
         margin-top: 15px;
         width: 590px;
@@ -127,12 +132,16 @@ body {
 }
 
 @media screen and (max-width:993px) {
+    #grid {
+        grid-template-rows: 200px 200px 100px 200px;
+    }
+
     .bg-img {
         background: none;
     }
 
     .svr-details {
-        grid-row-start: 2;
+        grid-row-start: 3;
         grid-column-start: 1;
     }
 
@@ -142,7 +151,7 @@ body {
     }
 
     .contact-us {
-        grid-row-start: 4;
+        grid-row-start: 3;
         grid-column-start: 3;
     }
     
@@ -162,8 +171,8 @@ body {
     }
 
     .svr-details {
-        grid-row-start: 2;
-        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-column-start: 1;
     }
 
     .about-us {
@@ -172,8 +181,8 @@ body {
     }
 
     .contact-us {
-        grid-row-start: 4;
-        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-column-start: 3;
     }
 }
 
