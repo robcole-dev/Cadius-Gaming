@@ -72,15 +72,38 @@ hr {
     border-bottom: 1px solid white;
     justify-items: center;
     align-items: center;
+
 }
 
 .nav {
-    grid-column-start: 1;
+    overflow: hidden;
     font-family: 'Road Rage', sans-serif;
     font-size: 55px;
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
+
+.nav1 {
+    grid-column-start: 1;
+}
+
+.nav2 {
+    grid-column-start: 2;
+}
+
+.nav3 {
+    grid-column-start: 3;
+}
+
+.nav4 {
+    grid-column-start: 4;
+}
+
+.icon {
+    display: none;
+    grid-column-start: 4;
+  }
 
 .active {
     color: #00c0ff;
@@ -167,21 +190,37 @@ footer {
     transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width:1201px) {
-    #top-banner {
-        background: url('../img/cadius_banner_main_1200.jpg') no-repeat center;
-    }
-
+@media screen and (max-width:1400px) {
     .nav {
         font-size: 45px;
     }
 }
 
-@media screen and (max-width:993px) {
+
+@media screen and (max-width:1201px) {
+    #top-banner {
+        background: url('../img/cadius_banner_main_1200.jpg') no-repeat center;
+    }
+
+}
+
+ @media screen and (max-width:1162px) {
     .nav {
         font-size: 35px;
     }
 
+}
+
+@media screen and (max-width:926px) {
+    .nav {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:691px) {
+    .nav {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:601px) {
@@ -192,10 +231,6 @@ footer {
     .logo {
         width: 70%;
         align-self: center;
-    }
-
-    .nav {
-        font-size: 25px;
     }
 
     #sub-menu-info {
@@ -221,6 +256,12 @@ footer {
     }
 
     .copyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .nav {
         font-size: 10px;
     }
 }
