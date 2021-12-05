@@ -129,6 +129,10 @@ body {
     .contact-us {
         grid-row-start: 3;
     }
+
+    .svr-details-p, .about-us-p, .contact-us-p {
+        font-size: 1vw;
+    }
 }
 
 @media screen and (max-width:993px) {
@@ -153,6 +157,10 @@ body {
     .contact-us {
         grid-row-start: 3;
         grid-column-start: 3;
+    }
+
+    .svr-details-p, .about-us-p, .contact-us-p {
+        font-size: 1vw;
     }
     
 }
@@ -190,6 +198,10 @@ body {
     .contact-us {
         grid-row-start: 3;
         grid-column-start: 3;
+    }
+
+    .svr-details-p, .about-us-p, .contact-us-p {
+        font-size: 1.5vw;
     }
 }
 
