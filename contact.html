@@ -18,25 +18,18 @@
         <div id="top-banner" class="banner">
             <img src="assets/img/cadius_logo.png" alt="Cadius Gaming Logo" class="logo">
         </div>
-        <nav id="nav-grid">
-            <div>
-                <a class="nav" href="index.html">Cadius Main Page</a>
-            </div>
-            <div>
-                <a class="nav" href="info.html">Game and Server Info</a>
-            </div>
-            <div>
-                <a class="nav" href="about.html">About Cadius Gaming</a>
-            </div>
-            <div>
-                <a class="nav active" href="#">Contact Cadius Gaming</a>
-            </div>
+        <nav id="nav-grid" class="topnav">
+                <a class="nav nav1" href="index.html">Cadius Main Page</a>
+                <a class="nav nav2 active" href="#">Game and Server Info</a>
+                <a class="nav nav3" href="about.html">About Cadius Gaming</a>
+                <a class="nav nav4" href="contact.html">Contact Cadius Gaming</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
         </nav>
         <div id="sub-menu-info">
-            <div>Empty</div>
-            <div>Empty</div>
-            <div>Empty</div>
-            <div>Empty</div>
+                <a class="sub-menu sub-nav3" href="#games">Games Section</a>
+                <a class="sub-menu sub-nav4" href="#servers">Servers Section</a>
         </div>
     </header>
     <section>
@@ -109,6 +102,15 @@
 
     <!-- font awesome icons and Java-->
     <script src="https://kit.fontawesome.com/cd8b967c41.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/java/button.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav-grid");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
 </html>
