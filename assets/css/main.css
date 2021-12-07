@@ -84,6 +84,24 @@ hr {
     margin-right: 20px;
 }
 
+.icon {
+    display: none;
+    grid-column-start: 4;
+    color: white;
+    font-size: 55px;
+  }
+
+.active {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+}
+
+.nav:hover {
+    color: #00c0ff;
+    border-bottom: 2px solid #00c0ff;
+    transition: all 0.2s ease-in-out;
+}
+
 .nav1 {
     grid-column-start: 1;
 }
@@ -98,22 +116,6 @@ hr {
 
 .nav4 {
     grid-column-start: 4;
-}
-
-.icon {
-    display: none;
-    grid-column-start: 4;
-  }
-
-.active {
-    color: #00c0ff;
-    border-bottom: 2px solid #00c0ff;
-}
-
-.nav:hover {
-    color: #00c0ff;
-    border-bottom: 2px solid #00c0ff;
-    transition: all 0.2s ease-in-out;
 }
 
 /*Sub Navigation*/
@@ -136,16 +138,34 @@ hr {
 }
 
 .sub-menu {
-    grid-column-start: 3;
+    grid-row-start: 1;
     font-family: 'Road Rage', sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: none;
 }
 
+
+
 .sub-menu:hover {
     border-bottom: 2px solid #00c0ff;
     transition: all 0.2s ease-in-out;
+}
+
+.sub-nav1 {
+    grid-column-start: 1;
+}
+
+.sub-nav2 {
+    grid-column-start: 2;
+}
+
+.sub-nav3 {
+    grid-column-start: 3;
+}
+
+.sub-nav4 {
+    grid-column-start: 4;
 }
 
 /*Footer*/
@@ -194,6 +214,10 @@ footer {
     .nav {
         font-size: 45px;
     }
+
+    .sub-menu{
+        font-size: 30px;
+    }
 }
 
 
@@ -209,17 +233,29 @@ footer {
         font-size: 35px;
     }
 
+    .sub-menu{
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width:926px) {
     .nav {
         font-size: 25px;
     }
+
+    .sub-menu{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:691px) {
     .nav {
         font-size: 15px;
+    }
+
+    .sub-menu{
+        font-size: 10px;
     }
 }
 
@@ -237,9 +273,12 @@ footer {
         grid-template-columns: 25% 25% 25% 25%;
     }
 
-    .sub-menu {
+    .sub-nav3 {
         grid-column-start: 2;
-        font-size: 25px;
+    }
+
+    .sub-nav4 {
+        grid-column-start: 3;
     }
 
     .footer {
@@ -262,6 +301,10 @@ footer {
 
 @media screen and (max-width:451px) {
     .nav {
+        font-size: 10px;
+    }
+
+    .sub-menu{
         font-size: 10px;
     }
 }
