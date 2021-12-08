@@ -205,5 +205,10 @@ body {
     }
 }
 
-
+@media screen and (max-width:415px) {
+    .logo {
+        width: 300px;
+        height: auto;
+    }
+}
 
