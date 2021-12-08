@@ -80,19 +80,19 @@ body {
 
 
 /*Hover over for buttons*/
-.svr-details a:hover {
+.svr-details-a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
     transition: all 0.2s ease-in-out;
 }
 
-.about-us a:hover {
+.about-us-a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
     transition: all 0.2s ease-in-out;
 }
 
-.contact-us a:hover {
+.contact-us-a:hover {
     color: #00c0ff;
     border-color: #00c0ff;
     transition: all 0.2s ease-in-out;
