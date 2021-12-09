@@ -16,10 +16,10 @@ Below are a list of key features and future features.
 
 - __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page includes an image of a planet with a text overlay. This is to start the theme throughout the site. 
+  - This section is kept nice and clean with a small navigation bar to the 3 main pages of the site.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/img/readme/index.png)
 
 - __The Navigation Bar__
 
