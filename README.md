@@ -19,52 +19,57 @@ Below are a list of key features and future features.
   - The landing page includes an image of a planet with a text overlay. This is to start the theme throughout the site. 
   - This section is kept nice and clean with a small navigation bar to the 3 main pages of the site.
 
-![Landing Page](/assets/img/readme/index.png)
+![Landing Page](/assets/img/readme/index.PNG)
 
 - __The Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The Landing navigation is different from the Main pages. This is due to page design with the idea of the landing page being simple and easy on the eyes.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Landing Nav Bar](/assets/img/readme/Landing-nav.PNG)
 
-- __Club Ethos Section__
+  - This main page navigation is split into two sections. the first being the naviation to the different pages around the site and the other being a sub menu to navigate on the page to the respective sections. 
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+![Main Nav Bar](/assets/img/readme/main-nav.PNG)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - Both navigations have a hover over affect that keeps the contrast consistant throughout the site.
 
-- __Meetup Times section__
+- __Game and Server Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The game section will allow the user to see the actively played games by the community.
+  - The game section will be updated to keep the users up to date with what games Cadius are actively playing.
+ 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Game Section](/assets/img/readme/Games.png)
+
+  - The server section will allow the user to see any active servers run by the community staff. the information consists of connection details and a list of current admins.
+
+![Server Section](/assets/img/readme/servers.png)
+
+- __About Cadius section__
+
+  - This section allows the user to learn about how Cadius became what it is today.
+
+![About and History](/assets/img/readme/history-and-about.png)
+
+- __The Staff Section__
+
+  - This section gives the user a list of current staff.
+  - This list will be updated to allow the user to know who the current staff are.
+
+![Staff Section](/assets/img/readme/staff.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Cadius Gaming. The links will open to a new tab to allow easy navigation for the user. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Footer](/assets/img/readme/footer.png)
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get in touch with the staff at Cadius Gaming. This could be for help on how to get into gaming, how to join the Cadius Gaming community or just technical issues.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](/assets/img/readme/contact.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
