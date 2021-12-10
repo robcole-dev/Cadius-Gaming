@@ -20,7 +20,7 @@ body {
 hr {
     border-top: 1px solid white;
     width: 90%;
-    margin: auto;
+    margin: 2em auto;
     align-items: center;
     padding-bottom: 5px;
 }

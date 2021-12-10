@@ -134,7 +134,7 @@
 }
 
 .server-center-spaceeng {
-    background: url(../img/SpaceLogo.png) no-repeat center center;
+    background: url(../img/spacelogo.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     justify-self: center;
@@ -142,7 +142,7 @@
 }
 
 .server-center-minecraft {
-    background: url(../img/Minecraft-block.png) no-repeat center center;
+    background: url(../img/minecraft-block.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     justify-self: center;
