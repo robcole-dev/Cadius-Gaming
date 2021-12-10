@@ -12,10 +12,10 @@ __Microsoft Edge__ - Tablet Screen\
 __Firefox__ - Phone Screen\
 ![Firefox](documentation/testing/firefox.png)
 
-__Samsung Internet App__ - Phone Screen
+__Samsung Internet App__ - Phone Screen\
 ![Samsung](documentation/testing/samsung.jpg)
 
-__Apple Safari App__ - Phone Screen
+__Apple Safari App__ - Phone Screen\
 ![Apple Safari](documentation/testing/safari.png)
 
 ### Code Validation
