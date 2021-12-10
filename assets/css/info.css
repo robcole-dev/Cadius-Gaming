@@ -216,8 +216,6 @@
         grid-row-start: 1;
         grid-column-start: 1;
         text-align: center;
-        padding-left: 0;
-        padding-right: 0;
     }
 
     .game-img-left, .game-img-right {
