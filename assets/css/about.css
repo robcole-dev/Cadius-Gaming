@@ -75,6 +75,8 @@
     padding-right: 20%;
 }
 
+/* Media Queries */
+
 @media screen and (max-width:1201px) {
     .text {
         width: 74%;
@@ -107,7 +109,7 @@
 
 @media screen and (max-width:601px) {
     .text {
-        width: 98%;
+        width: 96%;
         padding-left: 2%;
         padding-right: 2%;
         font-size: 15px;

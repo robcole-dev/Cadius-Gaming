@@ -1,6 +1,8 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Road+Rage&display=swap');
 
+
+/* Main Styles */
 .title {
     color: white;
     font-family: 'Road Rage',sans-serif;
@@ -9,11 +11,12 @@
     background-color: transparent;
 }
 
+/* Confirm page */
 .thank-you {
     color: white;
     font-size: 20px;
 }
-
+/* Form */
 fieldset {
     border: 2px solid #00c0ff;
     width: 90%;
@@ -109,10 +112,7 @@ input[type="submit"]:hover {
     border: 1px solid #00c0ff;
 }
 
-@media screen and (max-width:1278px) {
-
-    
-}
+/* Media Queries */
 
 @media screen and (max-width:1172px) {   
     input[type="reset"],

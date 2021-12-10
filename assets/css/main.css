@@ -29,6 +29,7 @@ hr {
     border-top: 1px solid #00c0ff;
 }
 
+/* Button */
 #myBtn {
     position: fixed;
     bottom: 100px;
@@ -211,6 +212,8 @@ footer {
     font-size: 55px;
     transition: all 0.2s ease-in-out;
 }
+
+/* Media Queries */
 
 @media screen and (max-width:1400px) {
     .nav {

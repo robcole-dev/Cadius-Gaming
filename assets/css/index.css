@@ -98,6 +98,8 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+/* Media Queries */
+
 @media screen and (max-width:1201px) {
     #grid {
         grid-template-rows: 200px 200px 150px 200px;

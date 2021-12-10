@@ -181,6 +181,8 @@
     color: #00c0ff;
 }
 
+/* Media Queries */
+
 @media screen and (max-width:993px) {
     .game-grid img {
         width: 400px;
