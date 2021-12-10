@@ -6,7 +6,7 @@ Cadius Gaming is a start up community that was created by two individuals who pl
 
 To visit the live version of the site (hosted by github pages) click [here](https://robcole-dev.github.io/Cadius-Gaming/)
 
-![Responsice Mockup](/assets/img/readme/response-image.PNG)
+![Responsive Mockup](documentation/readme/response-image.png)
 
 ## Features 
 
@@ -19,17 +19,17 @@ Below are a list of key features and future features.
   - The landing page includes an image of a planet with a text overlay. This is to start the theme throughout the site. 
   - This section is kept nice and clean with a small navigation bar to the 3 main pages of the site.
 
-![Landing Page](/assets/img/readme/index.PNG)
+![Landing Page](documentation/readme/index.png)
 
 - __The Navigation Bar__
 
   - The Landing navigation is different from the Main pages. This is due to page design with the idea of the landing page being simple and easy on the eyes.
 
-![Landing Nav Bar](/assets/img/readme/Landing-nav.PNG)
+![Landing Nav Bar](documentation/readme/Landing-nav.png)
 
   - This main page navigation is split into two sections. the first being the naviation to the different pages around the site and the other being a sub menu to navigate on the page to the respective sections. 
 
-![Main Nav Bar](/assets/img/readme/main-nav.PNG)
+![Main Nav Bar](documentation/readme/main-nav.png)
 
   - Both navigations have a hover over affect that keeps the contrast consistant throughout the site.
 
@@ -39,36 +39,36 @@ Below are a list of key features and future features.
   - The game section will be updated to keep the users up to date with what games Cadius are actively playing.
  
 
-![Game Section](/assets/img/readme/Games.png)
+![Game Section](documentation/readme/Games.png)
 
   - The server section will allow the user to see any active servers run by the community staff. the information consists of connection details and a list of current admins.
 
-![Server Section](/assets/img/readme/servers.png)
+![Server Section](documentation/readme/servers.png)
 
 - __About Cadius section__
 
   - This section allows the user to learn about how Cadius became what it is today.
 
-![About and History](/assets/img/readme/history-and-about.png)
+![About and History](documentation/readme/history-and-about.png)
 
 - __The Staff Section__
 
   - This section gives the user a list of current staff.
   - This list will be updated to allow the user to know who the current staff are.
 
-![Staff Section](/assets/img/readme/staff.png)
+![Staff Section](documentation/readme/staff.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Cadius Gaming. The links will open to a new tab to allow easy navigation for the user. 
 
-![Footer](/assets/img/readme/footer.png)
+![Footer](documentation/readme/footer.png)
 
 - __The Sign Up Page__
 
   - This page will allow the user to get in touch with the staff at Cadius Gaming. This could be for help on how to get into gaming, how to join the Cadius Gaming community or just technical issues.
 
-![Sign Up](/assets/img/readme/contact.png)
+![Sign Up](documentation/readme/contact.png)
 
 
 ### Features Left to Implement
@@ -92,11 +92,9 @@ Below are a list of key features and future features.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+ The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
+  - From the source section drop-down menu, select the Main Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 ## Credits 
