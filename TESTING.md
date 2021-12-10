@@ -21,13 +21,13 @@ __Apple Safari App__ - Phone Screen\
 ### Code Validation
 __HTML__
   - No errors were returned when passing through the official W3C Validator\
-  [W3C validator - Index](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/index.html)
-  ![Index Screenshot](documentation/testing/index-valid.png)
-  [W3C validator - Info](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/info.html)
-  ![Info Screenshot](documentation/testing/info-valid.png)
-  [W3C validator - About](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/about.html)
-  ![About Screenshot](documentation/testing/about-valid.png)
-  [W3C validator - Contact](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/contact.html)
+  [W3C validator - Index](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/index.html)\
+  ![Index Screenshot](documentation/testing/index-valid.png)\
+  [W3C validator - Info](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/info.html)\
+  ![Info Screenshot](documentation/testing/info-valid.png)\
+  [W3C validator - About](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/about.html)\
+  ![About Screenshot](documentation/testing/about-valid.png)\
+  [W3C validator - Contact](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/contact.html)\
   ![Contact Screenshot](documentation/testing/contact-valid.png)
 
 __CSS__
@@ -42,7 +42,7 @@ __Full Screen - 1920x1080__
 __Tablet Screen__
 ![Tablet Screen](documentation/testing/tablet.png)
 
-__Phone Screen - Samsung A71__
+__Phone Screen - Samsung A71__\
 ![Samsung](documentation/testing/samsung.jpg)
 
 ### User Story Tests
