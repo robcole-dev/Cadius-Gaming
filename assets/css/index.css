@@ -76,6 +76,7 @@ body {
     border: 3px solid white;
     text-decoration: none;
     align-self: start;
+    margin-bottom: 3px;
 }
 
 
@@ -180,16 +181,21 @@ body {
     }
 
     #grid {
-        grid-template-rows: repeat(5, 100px);
+        grid-template-rows: 200px 100px 100px 100px 500px;
+        grid-template-columns: 4% 90% 5%;
     }
 
     .bg-img {
-        background: url('../img/cadius_banner_main.jpg') no-repeat;
+        background: none;
+    }
+
+    #top {
+        background: url('../img/cadius_bg_601.jpg') no-repeat center;
     }
 
     .svr-details {
-        grid-row-start: 3;
-        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-start: 2;
     }
 
     .about-us {
@@ -198,12 +204,18 @@ body {
     }
 
     .contact-us {
-        grid-row-start: 3;
-        grid-column-start: 3;
+        grid-row-start: 4;
+        grid-column-start: 2;
+    }
+
+    .svr-details-a, .about-us-a, .contact-us-a {
+        font-size: 30px;
     }
 
     .svr-details-p, .about-us-p, .contact-us-p {
-        font-size: 1.5vw;
+        font-size: 15px;
+        width: auto;
+        align-self: flex-end;
     }
 }
 
@@ -211,6 +223,10 @@ body {
     .logo {
         width: 300px;
         height: auto;
+    }
+
+    #grid {
+        grid-template-rows: 200px 100px 100px 100px 500px;
     }
 }
 
