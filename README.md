@@ -6,7 +6,49 @@ Cadius Gaming is a start up community that was created by two individuals who pl
 
 To visit the live version of the site (hosted by github pages) click [here](https://robcole-dev.github.io/Cadius-Gaming/)
 
-![Responsive Mockup](documentation/readme/response-image.png)
+![Responsive Mockup](documentation/readme/response.png)
+
+## User Stories
+  - A section to list active servers with connection details
+  - A section to list actively played games
+  - A section for users to contact us
+  - A section to explain what Cadius Gaming is all about
+  - A section to explain the history of Cadius Gaming
+  - A staff list so users can see who the staff are
+
+## UX
+The UX has a space style theme, which is consistant through the site. It has a custom made planet in the background with community logo in front. Hover over navigation with changes colour from white to blue.
+
+### Colour Scheme 
+The Colour scheme used for this site is a mixture of Black, White, Light blue and dark blue. These colours compliment the planet that sits in the background.
+
+![Colour swatch](documentation/readme/colour-swatch.png)
+
+### Typography 
+On the site i have used 2 fonts found on goolge fonts. I have also used Font Awesome for the social icons in the footer.
+
+Links to the fonts used:\
+[Kanit](https://fonts.google.com/specimen/Kanit)\
+[Road Rage](https://fonts.google.com/specimen/Road+Rage)
+
+Links to icons used:\
+[Facebook Icon](https://fontawesome.com/v5.15/icons/facebook-square?style=brands)\
+[Instagram Icon](https://fontawesome.com/v5.15/icons/instagram-square?style=brands)\
+[Twitter Icon](https://fontawesome.com/v5.15/icons/twitter-square?style=brands)\
+[Youtube Icon](https://fontawesome.com/v5.15/icons/youtube-square?style=brands)
+
+### Wireframes and Designs
+
+Below are a couple of screenshots of Wireframes created for this project and some hand drawn ideas with pencil and paper.
+
+![Wireframe](documentation/readme/main-page.png)
+![First Design](documentation/readme/page-layout-first.jpg)
+![Second Design](documentation/readme/page-layout-second.jpg)
+![Third Design](documentation/readme/page-layout-third.jpg)
+![Fourth Design](documentation/readme/page-layout-fourth.jpg)
+![Wireframe](documentation/readme/game-section.png)
+![Wireframe](documentation/readme/servers-section.png)
+
 
 ## Features 
 
@@ -25,7 +67,7 @@ Below are a list of key features and future features.
 
   - The Landing navigation is different from the Main pages. This is due to page design with the idea of the landing page being simple and easy on the eyes.
 
-![Landing Nav Bar](documentation/readme/Landing-nav.png)
+![Landing Nav Bar](documentation/readme/landing-nav.png)
 
   - This main page navigation is split into two sections. the first being the naviation to the different pages around the site and the other being a sub menu to navigate on the page to the respective sections. 
 
@@ -81,29 +123,48 @@ Below are a list of key features and future features.
 
   - A new page where users can post their own screenshots of games and have other users comment on them.
 
-## Testing 
+- __Improved Contact Form__
 
-### Validator Testing 
+  - To make sure all forms submitted are correctly and acurately receieved with any issues being reported on screen to the user.
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobcole-dev.github.io%2FCadius-Gaming%2F)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobcole-dev.github.io%2FCadius-Gaming%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+## Technologies Used
+
+During development of the site a number of programs and web based applications were used. You can find a list of the below:
+
+[Photoshop](https://www.adobe.com/uk/products/photoshop.html)\
+[Balsamiq Wireframes](https://balsamiq.com/)\
+[Github](https://github.com/)\
+[Gitpod](https://www.gitpod.io/)
+
+Code that was used to develop this site are:
+
+[HTML5](https://en.wikipedia.org/wiki/HTML5)\
+[CSS3](https://en.wikipedia.org/wiki/CSS)\
+[Javascript](https://en.wikipedia.org/wiki/JavaScript)\
+[GIT](https://en.wikipedia.org/wiki/Git)
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
  The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Main Branch
+  - From the source section drop-down menu, select the Main Branch [Link to deployed site](https://robcole-dev.github.io/Cadius-Gaming/)
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+### Local Deployment
+
+If you would like to make a clone of this repository, you can type the following command in your IDE terminal:
+
+- `git clone https://github.com/robcole-dev/Cadius-Gaming.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/robcole-dev/Cadius-Gaming)
+
 ## Credits 
-
-- Tim (Mentor)
-  - Has helped with guidance and new ideas to help develop the site it is now.
-
-- Aura Cole (My Wife)
-  - Has helped with opinions and guidance with colours and layout.
 
 ### Content 
 
@@ -117,3 +178,9 @@ Below are a list of key features and future features.
   - Minecraft [Mincraft](https://www.minecraft.net/en-us)
   - War Thunder [War Thunder](https://warthunder.com/en/)
   - WarGame Red Dragon [Wargame Red Dragon](https://www.epicgames.com/store/en-US/p/wargame-red-dragon)
+
+### Acknowledgements
+
+- Tim (My Mentor)
+- Aura Cole (My Wife)
+- The community over on Code Institute's Slack
