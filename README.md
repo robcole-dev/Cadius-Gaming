@@ -29,9 +29,9 @@ On the site I have used 2 fonts found on Google fonts. I have also used Font Awe
 
 Links to the fonts used:
 
-[Kanit](https://fonts.google.com/specimen/Kanit)
+[Road Rage](https://fonts.google.com/specimen/Road+Rage) - Font used for titles
 
-[Road Rage](https://fonts.google.com/specimen/Road+Rage)
+[Kanit](https://fonts.google.com/specimen/Kanit) - Font used for main text
 
 Links to icons used:
 
