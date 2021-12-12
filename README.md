@@ -149,10 +149,11 @@ During development of the site a number of programs and web based applications w
 
 Code that was used to develop this site are:
 
-[HTML5](https://en.wikipedia.org/wiki/HTML5)\
-[CSS3](https://en.wikipedia.org/wiki/CSS)\
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript)\
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
 
+[CSS3](https://en.wikipedia.org/wiki/CSS)
+
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Testing
 
