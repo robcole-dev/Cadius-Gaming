@@ -81,7 +81,7 @@ Below are a list of key features and future features.
   - The game section will be updated to keep the users up to date with what games Cadius are actively playing.
  
 
-![Game Section](documentation/readme/Games.png)
+![Game Section](documentation/readme/games.png)
 
   - The server section will allow the user to see any active servers run by the community staff. the information consists of connection details and a list of current admins.
 
