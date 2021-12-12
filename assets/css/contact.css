@@ -7,8 +7,17 @@
     color: white;
     font-family: 'Road Rage',sans-serif;
     font-size: 70PX;
+    grid-row-start: 1;
     grid-column-start: 2;
     background-color: transparent;
+}
+
+/* Required text */
+.required {
+    color: white;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    align-self: end;
 }
 
 /* Confirm page */
@@ -32,7 +41,7 @@ legend {
 .contact-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 70px auto;
+    grid-template-rows: 100px auto;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -56,6 +65,10 @@ form {
     color: white;
     font-size: 25PX;
     padding-left: 10px;
+}
+
+strong {
+    color: #00c0ff;
 }
 
 .form-input {
@@ -175,5 +188,10 @@ input[type="submit"]:hover {
 
     fieldset {
         background-color: transparent;
+    }
+
+    .required {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 }

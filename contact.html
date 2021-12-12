@@ -38,21 +38,22 @@
                 <img class="image" src="assets/img/contact.png" alt="Contact image of 2 astranaughts">
                 <!-- Contact us form -->
                 <p class="title">Contact Us</p>
+                <p class="required">All fields marked with <strong>*</strong> are required before submission.</p>
                 <form action="confirm.html" class="bg-image">
                     <fieldset>
                         <legend>Your Contact Info</legend>
-                        <label for="fname" class="form-label">First Name:</label>
+                        <label for="fname" class="form-label">First Name:<strong>*</strong></label>
                         <input type="text" class="form-input" id="fname" required><br>
 
-                        <label for="lname" class="form-label">Last Name:</label>
+                        <label for="lname" class="form-label">Last Name:<strong>*</strong></label>
                         <input type="text" class="form-input" id="lname" required><br>
 
-                        <label for="gname" class="form-label">In-Game Name:</label>
+                        <label for="gname" class="form-label">In-Game Name:<strong>*</strong></label>
                         <input type="text" class="form-input" id="gname" required><br>
                     </fieldset>
                     <fieldset>
                         <legend>Contact Details</legend>
-                        <label for="email" class="form-label">Email:</label>
+                        <label for="email" class="form-label">Email:<strong>*</strong></label>
                         <input type="email" class="form-input" id="email" required><br>
 
                         <label for="discord" class="form-label">Discord Name:</label>
@@ -63,14 +64,14 @@
                 </fieldset>
                 <fieldset>
                     <legend>Info</legend>
-                    <label for="reason" class="form-label">Reason for Contact:</label>
+                    <label for="reason" class="form-label">Reason for Contact:<strong>*</strong></label>
                     <select id="reason" required>
-                        <option value="none" disabled default>Please select an Option</option>
+                        <option value="" selected default>Please select an Option...</option>
                         <option value="website-issues">Website Issues</option>
                         <option value="require-more-info">Want More information</option>
                         <option value="other">Other...</option>
                     </select><br>
-                    <label class="form-label" for="comment">Description:</label><br>
+                    <label class="form-label" for="comment">Description:<strong>*</strong></label><br>
                     <textarea rows="4" cols="50" id="comment" required></textarea>
                 </fieldset>
                 <input type="reset">
