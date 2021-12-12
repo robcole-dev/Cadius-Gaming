@@ -4,7 +4,7 @@ Cadius Gaming is a site that is targeted to anyone that is into gaming or lookin
 
 Cadius Gaming is a start up community that was created by two individuals who played the game Space Engineers. So with this is mind the site was inspired and styled around space.
 
-To visit the live version of the site (hosted by github pages) click [here](https://robcole-dev.github.io/Cadius-Gaming/)
+To visit the live version of the site (hosted by Github pages) click [here](https://robcole-dev.github.io/Cadius-Gaming/)
 
 ![Responsive Mockup](documentation/readme/response.png)
 
@@ -17,15 +17,15 @@ To visit the live version of the site (hosted by github pages) click [here](http
  - A staff list so users can see who the staff are
 
 ## UX
-The UX has a space style theme, which is consistent through the site. It has a custom made planet in the background with community logo in front. Hover over navigation with changes colour from white to blue.
+The UX has a space style theme, which is consistent through the site. It has a custom-made planet in the background with community logo in front. Hover over navigation with changes colour from white to blue.
 
 ### Colour Scheme 
-The Colour scheme used for this site is a mixture of Black, White, Light blue and dark blue. These colours compliment the planet that sits in the background.
+The Colour scheme used for this site is a mixture of Black, White, Light Blue and Dark Blue. These colours compliment the planet that sits in the background.
 
 ![Colour swatch](documentation/readme/colour-swatch.png)
 
 ### Typography 
-On the site i have used 2 fonts found on Google fonts. I have also used Font Awesome for the social icons in the footer.
+On the site I have used 2 fonts found on Google fonts. I have also used Font Awesome for the social icons in the footer.
 
 Links to the fonts used:
 
@@ -73,18 +73,18 @@ Below are a list of key features and future features.
 
  - The Landing navigation is different from the Main pages. This is due to page design with the idea of the landing page being simple and easy on the eyes.
 
-![Landing Nav Bar](documentation/readme/landing-nav.png)
+![Landing Navigation Bar](documentation/readme/landing-nav.png)
 
  - This main page navigation is split into two sections. The first being the navigation to the different pages around the site and the other being a sub menu to navigate on the page to the respective sections. 
 
-![Main Nav Bar](documentation/read me/main-nav.png)
+![Main Navigation Bar](documentation/readme/main-nav.png)
 
  - Both navigation bars have a hover over effect that keeps the contrast consistent throughout the site.
 
 - __Game and Server Section__
 
  - The game section will allow the user to see the actively played games by the community.
-  - The game section will be updated to keep the users up to date with what games Cadius are actively playing.
+ - The game section will be updated to keep the users up to date with what games Cadius are actively playing.
  
 
 ![Game Section](documentation/readme/games.png)
@@ -102,7 +102,7 @@ Below are a list of key features and future features.
 - __The Staff Section__
 
  - This section gives the user a list of current staff.
-  - This list will be updated to allow the user to know who the current staff are.
+ - This list will be updated to allow the user to know who the current staff are.
 
 ![Staff Section](documentation/readme/staff.png)
 
@@ -125,7 +125,7 @@ Below are a list of key features and future features.
 
  - A new page to be introduced will be the forum section where users can talk to each other and help each other out.
 
-- __Galary Section__
+- __Gallary Section__
 
  - A new page where users can post their own screenshots of games and have other users comment on them.
 
@@ -173,9 +173,9 @@ If you would like to make a clone of this repository, you can type the following
 
 - `git clone https://github.com/robcole-dev/Cadius-Gaming.git`
 
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+Alternatively, if using Git pod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/robcole-dev/Cadius-Gaming)
+[![Open in Git pod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/robcole-dev/Cadius-Gaming)
 
 ## Credits 
 
