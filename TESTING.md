@@ -3,6 +3,9 @@
 Below is a list of test that have been carried out with screenshots.
 
 ### Browser Compatibility
+
+The below browsers have been tested with the deployed site.\
+
 __Google Chrome__ - Fullscreen\
 ![Google Chrome](documentation/testing/google-chrome.png)
 
@@ -19,6 +22,7 @@ __Apple Safari App__ - Phone Screen\
 ![Apple Safari](documentation/testing/safari.png)
 
 ### Code Validation
+
 __HTML__
   - No errors were returned when passing through the official W3C Validator\
   [W3C validator - Index](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/index.html)\
@@ -36,6 +40,7 @@ __CSS__
   ![Css Screenshot](documentation/testing/css-valid.png)
 
 ### Responsiveness
+
 __Full Screen - 1920x1080__
 ![Full Screen](documentation/testing/fullscreen.png)
 

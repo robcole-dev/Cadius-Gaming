@@ -106,7 +106,7 @@ Below are a list of key features and future features.
 
 ![Footer](documentation/readme/footer.png)
 
-- __The Sign Up Page__
+- __The Contact Us Page__
 
   - This page will allow the user to get in touch with the staff at Cadius Gaming. This could be for help on how to get into gaming, how to join the Cadius Gaming community or just technical issues.
 
