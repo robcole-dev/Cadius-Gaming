@@ -6,7 +6,7 @@ Below is a list of test that have been carried out with screenshots.
 
 The below browsers have been tested with the deployed site.
 
-__Google Chrome__ - Fullscreen
+__Google Chrome__ - Full screen
 
 ![Google Chrome](documentation/testing/google-chrome.png)
 
@@ -30,27 +30,27 @@ __Apple Safari App__ - Phone Screen
 
 __HTML__
 
-No errors were returned when passing through the official W3C Validator
+No errors were returned when passing through the official W3C Validation
 
 - [W3C validator - Index](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/index.html)
 
-  ![Index Screenshot](documentation/testing/index-valid.png)
+ ![Index Screenshot](documentation/testing/index-valid.png)
 - [W3C validator - Info](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/info.html)
 
-  ![Info Screenshot](documentation/testing/info-valid.png)
+ ![Info Screenshot](documentation/testing/info-valid.png)
 - [W3C validator - About](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/about.html)
 
-  ![About Screenshot](documentation/testing/about-valid.png)
+ ![About Screenshot](documentation/testing/about-valid.png)
 - [W3C validator - Contact](https://validator.w3.org/nu/?doc=https://robcole-dev.github.io/Cadius-Gaming/contact.html)
 
-  ![Contact Screenshot](documentation/testing/contact-valid.png)
+ ![Contact Screenshot](documentation/testing/contact-valid.png)
 
 __CSS__
 
-No errors were found when passing through the official W3C Validator
+No errors were found when passing through the official W3C Validation
 
 - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobcole-dev.github.io%2FCadius-Gaming%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  ![Css Screenshot](documentation/testing/css-valid.png)
+ ![CSS Screenshot](documentation/testing/css-valid.png)
 
 ## Responsiveness
 
